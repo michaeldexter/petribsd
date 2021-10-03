@@ -36,7 +36,7 @@ options		FFS			# Berkeley Fast Filesystem
 # Appears to work with only "virtio" synchronized above with MODULES_OVERRIDE
 # Investigate
 device		virtio			# Generic VirtIO bus (required)
-device		virtio_pcii		# VirtIO PCI device
+device		virtio_pci		# VirtIO PCI device
 device		virtio_blk		# VirtIO Block device
 
 # Needed for Xen
